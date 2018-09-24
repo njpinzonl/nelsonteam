@@ -1,0 +1,21 @@
+.content_counter {
+  height: 100%;
+  box-shadow: 1px 1px 1px 1px gray;
+  background-color: white;
+  .margin_label {
+    margin-bottom: 50px;
+  }
+  .button_style {
+    margin-top: 30px;
+    height: 40px;
+    width: 90%;
+    outline: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    background-color: #2a2b2d;
+    &:hover{
+      background-color: #373b42;
+    }
+  }
+}

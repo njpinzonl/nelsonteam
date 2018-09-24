@@ -1,0 +1,8 @@
+<div class="content_counter">
+  <div class="margin_label">
+    <app-display [time]="timer.countdown$ | async"></app-display>
+  </div>
+  <div class="">
+    <button id = "buttonS" type="button" class="button_style" (click)="start()">{{nameButton}}</button>
+  </div>
+</div>
